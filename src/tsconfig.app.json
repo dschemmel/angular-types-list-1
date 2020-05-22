@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+        "baseUrl": "src",
+        "resolveJsonModule": true,
+        "strict": true,
+        "paths": {
+            "@app/*": ["./app/*"]
+        }
+  }
+}
