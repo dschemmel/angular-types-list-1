@@ -13,7 +13,7 @@ export class AppComponent implements AfterViewInit {
   @ViewChild("hello", {static: true}) hello: HelloComponent<{ name: string, id: number }>;
   Version = VERSION.full;
   ProjectVersion = `${name} V${version}`;
-  Item = { nome: "Dirk", id: 1 };
+  Item = { name: "Dirk", id: 1 };
 
   ngAfterViewInit() {
     const id = this.hello.Item.id;
