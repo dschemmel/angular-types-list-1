@@ -1,4 +1,8 @@
-<hello #hello [Item]="Item"></hello>
+<hello #hello [Item]="Item">
+  <ng-template let-item>
+    <span>Hi {{ item.name }}</span>
+  </ng-template>
+</hello>
 <p>
   project {{ ProjectVersion }} ng {{ Version }} :)
 </p>
